@@ -1,0 +1,120 @@
+/*font-family: 'Open Sans', sans-serif;
+font-family: 'Raleway', sans-serif;
+*/
+body {
+  background-color: #EEEEEE;
+  font-family: "Opens Sans", sans-serif;
+  font-size: 14px;
+  color: #7D7DBB;
+}
+
+h1 {
+  color: #FE511C;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+}
+
+h2, h3 {
+  color: grey;
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+}
+
+p { margin-bottom: 30px; }
+
+
+td {
+  padding-left: 10px;
+}
+
+#movies {
+  margin-bottom: 50px;
+}
+
+.card {
+    background-color: white;
+    width: 600px;
+    margin: 0 auto;
+    padding: 60px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+/*img {
+  width: 200px;
+  height: 300px;
+}*/
+
+.btn-red {
+  background-color: rgb(150,150,150);
+  width: 150px;
+  align-content: center;
+  border-radius: 5px;
+  padding: 15px 25px;
+  font-size: 16px;
+  text-decoration: none;
+  color: white;
+}
+
+.btn-red:hover {
+  transition: background-color 1s ease-in-out;
+  color: rgb(150,150,150);
+  background-color: white;
+  border: 1px solid rgb(150,150,150);
+}
+
+.avatar {
+  width: 180px;
+  border-radius: 50%;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0;
+
+}
+
+.list-inline li {
+  display: inline-block;
+  padding: 0 25px;
+}
+
+.list-inline li:hover {
+  font-weight: 600;
+  border-radius: 25px;
+  color: #fff;
+  opacity: 0.4;
+}
+
+.list-inline i {
+  font-size: 25px;
+}
+
+.list-inline a {
+  color: #7D7DBB;
+  text-decoration: none;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
